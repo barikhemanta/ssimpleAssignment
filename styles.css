@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: whitesmoke;
+  color: purple;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+button {
+  background-color: purple;
+  color: white;
+}
+
+button:hover {
+  background-color: aquamarine;
+  color: purple;
+}
+p {
+  margin: 2rem auto;
+}
+
+.welcome-message {
+  max-width: 700px;
+  margin: auto;
+  border: 1px solid purple;
+  border-radius: 16px;
+}
+
+.name-input {
+  display: none;
+  margin-top: 20px;
+}
+
+.hidden {
+  display: none;
+}
